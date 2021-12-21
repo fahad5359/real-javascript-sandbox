@@ -48,32 +48,68 @@ let per_3 = {
 
 
 
-// let profiele = {
-//     name: "fahad",
-//     age: 23,
-//     hobbie: "prrograming drawing",
-//     food: "mlo5yah",
-//     agead: function () {
-//         this.age = this.age - 3
-//         return this.age
+let profiele = {
+    namee: "fahad",
+    age: 23,
+    hobbie: "prrograming drawing",
+    food: "mlo5yah",
+    salary: 5000,
+    agead: function () {
+        this.age = this.age - 3
+        return this.age
+    },
+    salad:function(){
+        this.salary =this.salary +100
+        return this.salary 
+    },
+   nomch:function(aa){
+       this.namee=aa
+       return aa
+   }
+    
+};
+
+
+// let calccc = {
+//     num1: 40,
+//     num2: 10,
+//     num3: 14,
+//     num4: 45,
+//     num5: 98,
+//     addd:function(){
+//         return this.num1+this.num2
 //     },
 // };
 
 
-let calccc = {
-    num1: 40,
-    num2: 10,
-    num3: 14,
-    num4: 45,
-    num5: 98,
+// //////////////////////////////////////////////////////////////////// section 2 // /////////////////////////////////////////////////////////////////
+
+
+
+// in objects we use for in.
+
+// in arrays we used the normal for loop to access the array , but in here in the dectinary ,we are useing the for in 
+
+let ex_1={
+    namee: "ali",
+    agge: 50,
+    foesi: "ad",
+}
+// u can target the names of the ojects only by writing as bellow
+for (const i in ex_1) {
+    console.log(i);
+   
 }
 
-
-
-
-
-
-
+let eex_2={
+    cartype:"suv",
+    price:5,
+    shape:"good",
+}
+// u can target the values of the ojects only by writing as bellow
+for (let ii in eex_2){
+    console.log(eex_2[ii]);
+}
 
 
 
