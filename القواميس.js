@@ -117,17 +117,6 @@ for (let ii in eex_2) {
 // //////////////////////////////////////////////////////////////////// hw // /////////////////////////////////////////////////////////////////
 
 
-let ammk = {
-    fahad: "asd",
-    asd: "asdasd",
-    // fun: function (a) {
-
-    // }
-}
-function ammasd(a, b, c) {
-    a = a[b, c]
-    return a
-}
 
 
 
@@ -155,5 +144,9 @@ function createNewKeyValue(obj, newKey, newValue) {
     obj[newKey]=newValue
   }
 // 3) A function that takes a new value for the key and return its new value.
+
+function hhww_2(obj,key,newval){
+    obj[key]=newval
+}
 
 
