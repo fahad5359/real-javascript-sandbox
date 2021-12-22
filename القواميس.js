@@ -141,12 +141,33 @@ hhww(exa, "val3")
 
 function createNewKeyValue(obj, newKey, newValue) {
     // obj[keyName] = -value;
-    obj[newKey]=newValue
-  }
+    obj[newKey] = newValue
+}
 // 3) A function that takes a new value for the key and return its new value.
 
-function hhww_2(obj,key,newval){
-    obj[key]=newval
+function hhww_2(obj, key, newval) {
+    return obj[key] = newval
 }
+
+// 4) An object tha has a name of moviess, inside of this object we have function tha changes the title of the movie.
+
+let movie = {
+    moviettle: "scream",
+    moviedr: 2,
+    gnra: "horror",
+    changemoviettle:function(a){
+        this.moviettle=a
+        return a
+    }
+};
+// 5) function that prints all dictionary keys and values and between them we print "="
+
+function eqlsbetween(obj){
+    for (const i in obj) {
+        console.log(i,"=",obj[i]);
+    }
+}
+eqlsbetween(exa)
+// ///////////////////////////////////////////////////////////////////////
 
 
