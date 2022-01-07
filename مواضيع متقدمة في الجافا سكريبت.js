@@ -112,4 +112,4 @@ function largerthentwo(array){
 }
 
 largerthentwo(loarry)
-
+// ads
