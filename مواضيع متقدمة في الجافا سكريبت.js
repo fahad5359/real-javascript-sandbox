@@ -107,14 +107,97 @@ function largerthentwo(array) {
 
 largerthentwo(loarry)
 // ads
+// let orrr1 = [40, 3, 90, 10, 88, 1, 2, 3, 4, 10, 6, 7]
+// let orrr2 = ["fahad", "sfiudhi", "aaa", "aa", "bbb", "a", "n", "kkkk", "llll", "pp"]
+// function fad(mm) {
+//     mm.forEach((ellm)=>{
+//         console.log(ellm+2);
+//     })
+// }
 
+// fad(orrr1)
 // ############################################################## section 2 ######################################## ########################################
 
+/*
+    In section two we are going to talke abbot "map" and  "find" 
+*/
+
+/* map
+الماب ترجع اراي جديد مع تطبيق الشرط اللي حطيناه
+*/
+let orrr1 = [40, 3, 90, 10, 88, 1, 2, 3, 4, 10, 6, 7]
+
+orrr1.map((elm) => {
+    return elm - 50
+})
+
+// orrr1.filter((elm)=>{
+//     return  elm-50
+// })
+
+
+
+/* find
+الفايند يرجع  اول قيمة  عنصر تطبق الشرط  اللي حطيناه.
+*/
+
+
+orrr1.find((elm) => {
+    return elm > 10
+})
+//  زي ما هو واضح فوق ,رجع اول قيمة طاببقت الشرط 
+
+// ############################################################## examples 2  ######################################## ########################################
+
+// 1)  دالة تقوم باستقبال مصفوفة  تتكون من أرقام وترجع مصفوفة جديدة تتكون من العنصر *2
+
+let ex1 = [40, 3, 90, 10, 88, 1, 2, 3, 4, 10, 6, 7]
+
+function fuunn(aaray) {
+    let bb = aaray.map((elm) => {
+        return elm * 2
+    })
+    return bb
+
+}
+
+fuunn(ex1)
+
+// 2)  same as above but + 4 insead of *2
+function fuunn_to(aaray) {
+    let bb = aaray.map((elm) => {
+        return elm * 4
+    })
+    return bb
+
+}
+
+fuunn_to(ex1)
+// console.log(funn(ex_1));
 
 
 
 
 
+// 3)) retrun first numbber of array that accespts  mulltiplecation on 5 .
 
 
+function fuunn_the(array) {
+    let gg array.find((eelm) => {
+        // اذا كنا نريد معرفت  ان هذا الرقم يقبل القسمة على رقم اخر  ,نستعمل باقي القسمة ,اذا كان =0 يقبل اذا=1 لا يقبل
+        return eelm % 5=== 1
+    })
+    return gg
+}
+
+//  4)  function  takes  array  and  returns the first string  that eql to 4
+let orrr2 = ["fahad", "sfiudhi", "aaa", "aa", "bbb", "a", "n", "kkkk", "llll", "pp"]
+
+function fuunn_fo(array) {
+    let gg = array.find((eelm) => {
+        return eelm.length === 4
+    })
+    return gg
+}
+fuunn_fo(orrr2)
 
