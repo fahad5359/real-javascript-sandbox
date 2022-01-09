@@ -15,17 +15,7 @@ console.clear()
 // es6 //
 
 
-/* there are two good ways we can loop through this array,
-eather we use the calssic 'for loop', or we use 'foreach'
 
-اذ نبي نسوي عمليات على الفور لوب نروح نسوي عملياتنا على
-console.log(arrrrray[i] "هنا نسوي العمليات");
-
-اتما في الفور ايتش
-الباراميتر اللي حطيناه يكفي..
-
-examples bellow
-*/
 
 // arrow function \\ => //
 
@@ -40,7 +30,7 @@ eather we use the calssic 'for loop', or we use 'foreach'
 اذ نبي نسوي عمليات على الفور لوب نروح نسوي عملياتنا على
 console.log(arrrrray[i] "هنا نسوي العمليات");
 
-اتما في الفور ايتش
+اما في الفور ايتش
 الباراميتر اللي حطيناه يكفي..
 
 examples bellow
@@ -66,8 +56,12 @@ nubeerz.filter((eellm) => {
     return eellm >= 5
 })
 
+
+
+// ############################################################## examples  ######################################## ########################################
+
 // 1) function tha recives a string array and print avrything insidde of it 
-let loarry = ["fahadd", "fhd", "asma", "ad","ali", "mha"]
+let loarry = ["fahadd", "fhd", "asma", "ad", "ali", "mha"]
 function printalString(arry) {
     arry.forEach((arelm) => {
         console.log(arelm);
@@ -91,8 +85,8 @@ moloftwo(nmbrz)
 // 3) fucntion takes array and returns only string larger than 4 charechters only.
 
 function charlength(arrayy) {
-    let outbut =arrayy.filter((eelm) => {
-       
+    let outbut = arrayy.filter((eelm) => {
+
         return eelm.length > 4
     })
     return outbut
@@ -104,8 +98,8 @@ charlength(loarry)
 
 // 4) fucntion takes array and returns only string larger than 2 charechters only.
 
-function largerthentwo(array){
-    let oout=array.filter((elm)=>{
+function largerthentwo(array) {
+    let oout = array.filter((elm) => {
         return elm.length > 2
     })
     return oout
@@ -113,3 +107,14 @@ function largerthentwo(array){
 
 largerthentwo(loarry)
 // ads
+
+// ############################################################## section 2 ######################################## ########################################
+
+
+
+
+
+
+
+
+
