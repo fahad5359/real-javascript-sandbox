@@ -183,12 +183,13 @@ fuunn_to(ex1)
 
 
 function fuunn_the(array) {
-    let gg array.find((eelm) => {
+    let gg= array.find((eelm) => {
         // اذا كنا نريد معرفت  ان هذا الرقم يقبل القسمة على رقم اخر  ,نستعمل باقي القسمة ,اذا كان =0 يقبل اذا=1 لا يقبل
-        return eelm % 5=== 1
+        return eelm % 5 === 0
     })
     return gg
 }
+fuunn_the(ex1)
 
 //  4)  function  takes  array  and  returns the first string  that eql to 4
 let orrr2 = ["fahad", "sfiudhi", "aaa", "aa", "bbb", "a", "n", "kkkk", "llll", "pp"]
