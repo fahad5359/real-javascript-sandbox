@@ -183,7 +183,7 @@ fuunn_to(ex1)
 
 
 function fuunn_the(array) {
-    let gg= array.find((eelm) => {
+    let gg = array.find((eelm) => {
         // اذا كنا نريد معرفت  ان هذا الرقم يقبل القسمة على رقم اخر  ,نستعمل باقي القسمة ,اذا كان =0 يقبل اذا=1 لا يقبل
         return eelm % 5 === 0
     })
@@ -205,3 +205,75 @@ fuunn_fo(orrr2)
 
 
 // ############################################################## hw  ######################################## ########################################
+let ourarry = [1, 2, 3, 4, 15, 5, 6, 7, 8, 9, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+let ourarryT = [1, 2, 3, 4, 5, 6, 7, 3, 3, 2, 1, 123, 4321, 34, 8, 9, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+let ourarryTH = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 30, 40, 50, 60, 70, 123, 456, 4, 88, 9, 80, 90, 100]
+let ourarryF = ["fad", "feating", "la", "p", "qe"]
+let ourarryFI = ["fad", "fa", "ali", "a", "ahmadiseating", "lll", "aa", "p", "qe"]
+let ourarryS = ["fad", "fa", "ali", "a", "ahmadi", "qe", "ali", "kaled"]
+
+// 1)  function that takes numbered array and print  all of  it index
+function hw1(arry) {
+    arry.forEach((elmt, i) => {
+        // we can use the parramiter i to represent the index.
+        console.log(elmt, i);
+    })
+
+}
+hw1(ourarry)
+hw1(ourarryT)
+hw1(ourarryTH)
+
+
+// 2) function that takes numbered array and returns a new array with numbers larger  than 10
+function hw2(array) {
+    return array.filter((elm) => {
+        return elm >= 10
+    })
+}
+
+hw2(ourarry)
+hw2(ourarryT)
+hw2(ourarryTH)
+
+function hw22(array) {
+    let iii = array.map((elm) => {
+        return elm > 10
+    })
+    return iii
+}
+// ?????????????????????????????????????????????????????????? if the map is on condition it will not give a new array , but will transform it ot a boolean....
+hw22(ourarry)
+
+
+// 3) function that takes numbered array and returns a new array * 10
+function hw3(array) {
+    let iii = array.map((elm) => {
+        return elm * 10
+    })
+    return iii
+}
+
+hw3(ourarry)
+// 4) function that takes numbered array and  returns  the first number that  is larger  or eql  to 15
+function hw4(array) {
+    return array.find((elmt) => {
+        //    here we toke the conditions and pu it with return ... so it is working perfctly.
+        return elmt === 15 || elmt > 15
+    })
+}
+
+hw4(ourarry)
+hw4(ourarryT)
+hw4(ourarryTH)
+// 5) function that takes numbered array and returns  the same array  but  it is squared
+function hw5(array) {
+    return array.map((elm) => {
+        return elm*elm
+    })
+}
+hw5(ourarry)
+hw5(ourarryT)
+hw5(ourarryTH)
+// 6) function that takes stringged array and  returns  the first number that  is larger 2
+
