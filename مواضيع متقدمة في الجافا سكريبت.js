@@ -209,7 +209,7 @@ let ourarry = [1, 2, 3, 4, 15, 5, 6, 7, 8, 9, 10, 20, 30, 40, 50, 60, 70, 80, 90
 let ourarryT = [1, 2, 3, 4, 5, 6, 7, 3, 3, 2, 1, 123, 4321, 34, 8, 9, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
 let ourarryTH = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 30, 40, 50, 60, 70, 123, 456, 4, 88, 9, 80, 90, 100]
 let ourarryF = ["fad", "feating", "la", "p", "qe"]
-let ourarryFI = ["fad", "fa", "ali", "a", "ahmadiseating", "lll", "aa", "p", "qe"]
+let ourarryFI = ["f", "fa", "ali", "a", "ahmadiseating", "lll", "aa", "p", "qe"]
 let ourarryS = ["fad", "fa", "ali", "a", "ahmadi", "qe", "ali", "kaled"]
 
 // 1)  function that takes numbered array and print  all of  it index
@@ -275,5 +275,13 @@ function hw5(array) {
 hw5(ourarry)
 hw5(ourarryT)
 hw5(ourarryTH)
-// 6) function that takes stringged array and  returns  the first number that  is larger 2
+// 6) function that takes stringged array and  returns  the first sting that  is larger 2
+function hw6(array){
+  return  array.find((elm)=>{
+        return elm.length > 2
+    })
+
+
+}
+hw6(ourarryF)
 
