@@ -71,17 +71,28 @@ let machine = ["toret", "mk-50"]
 //     }
 // }
 // مرة بالمصفوفات ومرة بالوبجيكت
-function scaningToret(arry, subjectt) {
-    if (arry == subjectt) {
+// function scaningToret(arry, subjectt) {
+//     if (arry == subjectt) {
 
-        for (var i = 0; i < arry.length; i++) {
-            console.log(arry[i]);
-        }
-    }
+//         for (var i = 0; i < arry.length; i++) {
+//             console.log(arry[i]);
+//         }
+//     }
+// }
+
+
+// scaningToret(homan,"fahad")
+
+// let objj={nameee:"Fahad",job:"stodent"}
+// console.log(objj.nameee);
+
+const robots = ["torret", "huuman robot", "wall torret"]
+const alian = ["zeno", "huumanoid"]
+const homan = ["human"]
+
+function momad(array) {
+   
 }
-
-
-scaningToret(homan,"fahad")
 
 
 
