@@ -1,3 +1,4 @@
+// ///////////////////////////////////////////////////////// section 1///////////////////////////////////////////
 // we Use  the dom to manipulate  html and css by js
 // the dom is an object.
 // bellow  an example of  an object.
@@ -73,6 +74,25 @@ document.querySelectorAll("p")
 
 // ||||||| 
 
-//if we want to specfy a child we can use inddex as shown bellow
+//when we target an item like paragraph by using the quaryall ,we get all of the paragraphs. but how can we target a spicifc paragraph? we can use  index value ,as we were using in arrayes ,examplles bellow.
 // for example we  want to target "lolo" we write:
-document.querySelectorAll("p")[4]
+document.querySelectorAll("p")
+// [p#ttst, p#p0, p#p1, p#p2, p#p3, p#wow, p#wow2, p, p, p, p, p]
+
+
+
+
+// we can save the item in a js  varible
+const paragraphh=document.querySelectorAll("p");
+console.log(paragraphh);
+// from this we  can manoplate the elemnt  as  we want...
+
+// another example
+const llink=document.querySelector("#Lonk")
+
+
+
+// زي ما كنا نقول فوق ان الدوم يعدل على التش تي ام ل و الس اس اس  ناخذ الينك ونغير قيمته
+llink.href="https://www.amazon.com/"
+console.log(llink);
+// yes is working perfictly we manipulated the html by using js
