@@ -22,7 +22,7 @@ console.log(persons.info2);
 
 // example
 /*
-زي ما قلنا عن الدوم انها اوبجكت هنا عطنا مثال :
+زي ما قلنا عن الدوم انها اوبجكت هنا عطانا مثال :
 
 حطلي شجرة عايلة وجبلي خامس ولد.
  كلها بالوبجكت
@@ -96,3 +96,7 @@ const llink=document.querySelector("#Lonk")
 llink.href="https://www.amazon.com/"
 console.log(llink);
 // yes is working perfictly we manipulated the html by using js
+let bao=document.querySelector("#p0")
+bao.innerText="changed"
+console.log(bao);
+// Yes if u go back to the Html file u will see the second p is calledd "ahamd", we seccefully changed it and wrote "changed", usding the dom
