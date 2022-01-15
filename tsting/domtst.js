@@ -1,6 +1,6 @@
-// let para=document.querySelectorAll("p")
-// para=para[4]
-// console.log(para);
-let bor=document.querySelectorAll("#lolo")
-bor.innertext="helloooooooooooo"
-console.log(bor);
+let aaa=document.querySelectorAll("p")
+aaa= aaa[2].innerText="wlk any chnged"
+console.log(aaa[2]);
+
+// from the p in the html files pick and change there values.
+
