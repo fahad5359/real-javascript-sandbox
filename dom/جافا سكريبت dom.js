@@ -140,6 +140,8 @@ opp[0].innerText="afsds"
 // we want to manipulate the css with our js
 const fahad=document.querySelector("#lolo1")
 let sotyle=getComputedStyle(fahad)
+// sotyle.color= rgb(255, 145, 0)
+fahad.style.color="aqua"
 
 
 
