@@ -18,7 +18,7 @@ let persons = {
         },
     },
 }
-console.log(persons.info2);
+// console.log(persons.info2);
 
 // example
 /*
@@ -84,7 +84,7 @@ document.querySelectorAll("p")
 
 // we can save the item in a js  varible
 const paragraphh=document.querySelectorAll("p");
-console.log(paragraphh);
+// console.log(paragraphh);
 // from this we  can manoplate the elemnt  as  we want...
 
 // another example
@@ -94,13 +94,35 @@ const llink=document.querySelector("#Lonk")
 
 // زي ما كنا نقول فوق ان الدوم يعدل على التش تي ام ل و الس اس اس  ناخذ الينك ونغير قيمته
 llink.href="https://www.amazon.com/"
-console.log(llink);
+// console.log(llink);
 // yes is working perfictly we manipulated the html by using js
 let bao=document.querySelector("#p0")
 bao.innerText="changed"
-console.log(bao);
-// Yes if u go back to the Html file u will see the second p is calledd "ahamd", we seccefully changed it and wrote "changed", usding the dom
+// console.log(bao);
+// Yes if u go back to the Html file u will see the second p is calledd "ahamd", we seccefully changed it and wrote "changed", usding the dom.
 
+
+// exampples:
+
+
+// 1) print all p for html
+
+let pp1=document.querySelector("#don")
+console.log(pp1);
+let pp2=document.querySelector("#don2")
+console.log(pp2);
+let pp3=document.querySelector("#don3")
+console.log(pp3);
+let pp4=document.querySelector("#don4")
+console.log(pp4);
+let pp5=document.querySelector("#don5")
+console.log(pp5);
+
+// 2) cahnge the second to "I am Learning dom"
+pp2.innerText="I am learing the dom"
+
+// 3) cange the 4th to "Txt changed"
+pp3.innerText="Txt changed"
 
 
 // ///////////////////////////////////////////////////////// ///////////////// section 2 ////////////////////////////////////////////////////////////
