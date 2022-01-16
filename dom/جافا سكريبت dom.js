@@ -125,5 +125,18 @@ pp2.innerText="I am learing the dom"
 pp3.innerText="Txt changed"
 
 
+// the bellow example expalins that it counts as an array so we  can ddo the same array operations to them
+let opp=document.querySelectorAll("#op")
+console.log(opp);
+for (let i= 0; i < opp.length; i++) {
+    console.log(opp[i].innerText);
+}
+opp[0].innerText="afsds"
+
+
 // ///////////////////////////////////////////////////////// ///////////////// section 2 ////////////////////////////////////////////////////////////
+
+// 
+
+
 
