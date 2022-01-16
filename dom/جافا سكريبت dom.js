@@ -136,7 +136,11 @@ opp[0].innerText="afsds"
 
 // ///////////////////////////////////////////////////////// ///////////////// section 2 ////////////////////////////////////////////////////////////
 
-// 
+// mostly will change in css 
+// we want to manipulate the css with our js
+const fahad=document.querySelector("#lolo1")
+let sotyle=getComputedStyle(fahad)
+
 
 
 
