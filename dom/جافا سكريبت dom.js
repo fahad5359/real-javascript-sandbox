@@ -159,6 +159,20 @@ console.clear()
 
 // لا تنسا تحفظ كل الملفات قبل تطبق
 let hh1=document.querySelectorAll(".hola")
+console.log(hh1[0]);
+console.log(hh1[1]);
+console.log(hh1[2]);
+const fa=getComputedStyle(hh1[1])
+// console.log(fa);
+// 2) p اطبع لون أو نوع أو حجم الخط أو لون خلفية الموجود بداخل كل 
+console.log(fa.color);
+console.log(fa.fontSize);
 
+// 3) قم بتغي ير لون الخط بالوسم الأول ولون الخلفية بالوسم الثالث
+hh1[0].style.color="red"
+// .style
+hh1[2].style.backgroundColor="blue"
 
+// 4) قم بتغي ير حجم الخط الموجود بالوسم الثاني
+hh1[1].style.fontSize="100px"
 
