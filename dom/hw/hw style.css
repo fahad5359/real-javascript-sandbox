@@ -1,0 +1,19 @@
+/* main tags */
+p{
+    color: royalblue;
+    font-size: 20px;
+}
+span{
+    color: rgb(151, 151, 15);
+}
+/* ids */
+
+/* hoovers */
+p:hover{
+    position: relative;
+    right: 20px;
+}
+span:hover{
+    color: rgb(255, 153, 0);
+    border: solid rgb(148, 138, 138);
+}
