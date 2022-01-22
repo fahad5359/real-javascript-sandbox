@@ -35,7 +35,13 @@ pic[1].style.color="red"
 
 
 //3)قم بتغي ير نوع الخط الموجود بالوسم الثاني والوسم الرابع
-pic[1].style.fontFamily="'Times New Roman', Times, serif"
+pic[1].style.fontFamily = "Impact,Charcoal,sans-serif";
+pik[1].style.fontFamily = "Impact,Charcoal,sans-serif";
 
 //4) قم بتغي ير حجم الخط الموجود بالوسم الخامس والوسم السابع
+pic[4].style.fontSize="40px"
+pik[4].style.fontSize="30px"
 //5)قم بتغي ير لون الخلفية الموجود بالوسم السادس
+
+pic[6].style.backgroundColor="red"
+pik[6].style.backgroundColor="red"

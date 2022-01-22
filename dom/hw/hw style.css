@@ -15,8 +15,10 @@ span{
 }
 /* hoovers */
 p:hover{
-    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    
     right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 span:hover{
     color: rgb(255, 153, 0);
