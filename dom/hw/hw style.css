@@ -4,10 +4,15 @@ p{
     font-size: 20px;
 }
 span{
+
+
     color: rgb(151, 151, 15);
 }
 /* ids */
-
+#hhr{
+    border: blue solid;
+    color: rgb(0, 255, 115);
+}
 /* hoovers */
 p:hover{
     position: relative;
