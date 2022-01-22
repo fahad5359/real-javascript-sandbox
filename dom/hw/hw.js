@@ -24,16 +24,18 @@ let sttyle6 = getComputedStyle(pic[5]);
 console.log(sttyle6.fontFamily);
 
 
-let sttyle7 = getComputedStyle(pic[6]);
+
 //2) قم بتغي ير لون الخط الموجود بالوسم الأول والوسم الثالث
-pik[1].style.color="red"
+pik[0].style.color="red"
+pik[1].style.color="yellow"
 
-
-console.log(Hhhate);
-
+pic[0].style.color="red"
+pic[1].style.color="red"
 
 
 
 //3)قم بتغي ير نوع الخط الموجود بالوسم الثاني والوسم الرابع
+pic[1].style.fontFamily="'Times New Roman', Times, serif"
+
 //4) قم بتغي ير حجم الخط الموجود بالوسم الخامس والوسم السابع
 //5)قم بتغي ير لون الخلفية الموجود بالوسم السادس
