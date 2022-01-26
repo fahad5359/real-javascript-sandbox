@@ -20,7 +20,7 @@ function mehFunction() {
     if(passwordd.getAttribute("type")==="password"){
         // passwordd.setAttribute("type","text")
         passwordd.type ="text"
-    } else if(passwordd==="text"){
+    } else if(passwordd.getAttribute("type")==="text"){
         // passwordd.setAttribute("type","password")
         passwordd.type ="password"
     }
