@@ -15,6 +15,9 @@
 let bbtn = document.querySelector("#btn")
 let passwordd=document.querySelector("#basword")
 // bass.addEventListener("click", mehFunction ) 
+
+
+// here  we used the get attribute to compere it.
 function mehFunction() {
     // boss.setAttribute("type","text")
     if(passwordd.getAttribute("type")==="password"){
@@ -26,3 +29,10 @@ function mehFunction() {
     }
  
 }
+
+
+let eml=document.querySelector("#eml")
+// eml.innertext
+
+
+
