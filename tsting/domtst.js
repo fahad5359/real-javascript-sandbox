@@ -17,10 +17,12 @@ let passwordd=document.querySelector("#basword")
 // bass.addEventListener("click", mehFunction ) 
 function mehFunction() {
     // boss.setAttribute("type","text")
-    if(passwordd==="password"){
-        passwordd.setAttribute("type","text")
+    if(passwordd.getAttribute("type")==="password"){
+        // passwordd.setAttribute("type","text")
+        passwordd.type ="text"
     } else if(passwordd==="text"){
-        passwordd.setAttribute("type","password")
+        // passwordd.setAttribute("type","password")
+        passwordd.type ="password"
     }
  
 }
