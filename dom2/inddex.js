@@ -61,5 +61,5 @@ console.log(rabt.getAttribute("id"));
 rabt.setAttribute("href","https://www.google.com/search?q=smile+meme&tbm=isch&source=iu&ictx=1&vet=1&fir=0dmtdmI6FlIJxM%252CxGhCX8mRcjM8lM%252C_%253BbgIYu1FE-THfzM%252CPgO5-KoUHqoyRM%252C_%253B-uePZXizRDtICM%252CUdx5GLtDVRzHmM%252C_%253BsdctHdKcKjdlYM%252CZiHludXctUXiAM%252C_%253BHl5Cf0RD2W_ADM%252CxULQvdAvUlGWgM%252C_%253B-dGaEqC_jGZOGM%252CXtIDHcEUmjAH6M%252C_%253BSFFpbE2r97uaLM%252CNDn7CDsH1TggDM%252C_%253BpGweeARSEOGvpM%252CcT2ZBtmI8X7BzM%252C_%253B5cHvAVIAnrbHdM%252CDKFl6ejSz99PRM%252C_%253BVW-Us4UyFXhQlM%252CLdP7Qivg5LQYxM%252C_%253BNexNQmXdMZct5M%252Cnr5wKteFkOWo9M%252C_%253BPIFxRn0WWeVoNM%252CFdrmVre3H35aRM%252C_%253By-t92DPnlEoQnM%252CmxNRdZ7FAiZXhM%252C_%253BlYDYXFatoAm6eM%252Cjit-OEeWRKHyJM%252C_%253BdY4lrkucsu2oUM%252CI4dojcUihFULfM%252C_&usg=AI4_-kQ9sX4DP5UjtwML9wyt7a9WiogpDA&sa=X&ved=2ahUKEwinjqm03M31AhWlBGMBHURYBDAQ9QF6BAgFEAE&biw=1280&bih=577&dpr=1.5#imgrc=xfjoVWcxtrr9JM")
 
 
-
+// ///////////////////////////////////////////////////// section 2 //////////////////////////////////////
 

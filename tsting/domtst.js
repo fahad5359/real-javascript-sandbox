@@ -7,7 +7,20 @@
 
 // Pick the 3ed value by using the qurlselctorall
 
-let bb
-bb=document.querySelectorAll(".oom")[2]
+// let bb
+// bb=document.querySelectorAll(".oom")[2]
 
-console.log(bb);
+// console.log(bb);
+
+let bbtn = document.querySelector("#btn")
+let passwordd=document.querySelector("#basword")
+// bass.addEventListener("click", mehFunction ) 
+function mehFunction() {
+    // boss.setAttribute("type","text")
+    if(passwordd==="password"){
+        passwordd.setAttribute("type","text")
+    } else if(passwordd==="text"){
+        passwordd.setAttribute("type","password")
+    }
+ 
+}
