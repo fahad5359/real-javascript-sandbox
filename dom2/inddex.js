@@ -42,26 +42,35 @@ pass.setAttribute("type", "password")
 
 // /////////////////// examples 1/////////////////
 
-// قم بتغي ير الرابط src الموجود بالوسم img
+// 1) قم بتغي ير الرابط src الموجود بالوسم img
 let imgg = document.querySelector("#soorah")
 imgg.setAttribute("src", "/dom2/marc-kleen-fLRb01yh5tI-unsplash.jpg")
 
-// قم بتغي ير الرابط ال alt الموجود بالوسم img
+// 2) قم بتغي ير الرابط ال alt الموجود بالوسم img
 imgg.setAttribute("alt", "a better imge")
 console.log(imgg.getAttribute("alt"));
 // output= "a better imge"
 
-// change the id in a
-let rabt=document.querySelector("#aa")
-rabt.setAttribute("id","raaab6")
+// 3) change the id in a
+let rabt = document.querySelector("#aa")
+rabt.setAttribute("id", "raaab6")
 console.log(rabt.getAttribute("id"));
 // // output= "raaab6"
 
 
-// قم بتغي ير الرابط href الموجود بالوسم a
+// 4) قم بتغي ير الرابط href الموجود بالوسم a
 
-rabt.setAttribute("href","https://www.google.com/search?q=smile+meme&tbm=isch&source=iu&ictx=1&vet=1&fir=0dmtdmI6FlIJxM%252CxGhCX8mRcjM8lM%252C_%253BbgIYu1FE-THfzM%252CPgO5-KoUHqoyRM%252C_%253B-uePZXizRDtICM%252CUdx5GLtDVRzHmM%252C_%253BsdctHdKcKjdlYM%252CZiHludXctUXiAM%252C_%253BHl5Cf0RD2W_ADM%252CxULQvdAvUlGWgM%252C_%253B-dGaEqC_jGZOGM%252CXtIDHcEUmjAH6M%252C_%253BSFFpbE2r97uaLM%252CNDn7CDsH1TggDM%252C_%253BpGweeARSEOGvpM%252CcT2ZBtmI8X7BzM%252C_%253B5cHvAVIAnrbHdM%252CDKFl6ejSz99PRM%252C_%253BVW-Us4UyFXhQlM%252CLdP7Qivg5LQYxM%252C_%253BNexNQmXdMZct5M%252Cnr5wKteFkOWo9M%252C_%253BPIFxRn0WWeVoNM%252CFdrmVre3H35aRM%252C_%253By-t92DPnlEoQnM%252CmxNRdZ7FAiZXhM%252C_%253BlYDYXFatoAm6eM%252Cjit-OEeWRKHyJM%252C_%253BdY4lrkucsu2oUM%252CI4dojcUihFULfM%252C_&usg=AI4_-kQ9sX4DP5UjtwML9wyt7a9WiogpDA&sa=X&ved=2ahUKEwinjqm03M31AhWlBGMBHURYBDAQ9QF6BAgFEAE&biw=1280&bih=577&dpr=1.5#imgrc=xfjoVWcxtrr9JM")
+rabt.setAttribute("href", "https://www.google.com/search?q=smile+meme&tbm=isch&source=iu&ictx=1&vet=1&fir=0dmtdmI6FlIJxM%252CxGhCX8mRcjM8lM%252C_%253BbgIYu1FE-THfzM%252CPgO5-KoUHqoyRM%252C_%253B-uePZXizRDtICM%252CUdx5GLtDVRzHmM%252C_%253BsdctHdKcKjdlYM%252CZiHludXctUXiAM%252C_%253BHl5Cf0RD2W_ADM%252CxULQvdAvUlGWgM%252C_%253B-dGaEqC_jGZOGM%252CXtIDHcEUmjAH6M%252C_%253BSFFpbE2r97uaLM%252CNDn7CDsH1TggDM%252C_%253BpGweeARSEOGvpM%252CcT2ZBtmI8X7BzM%252C_%253B5cHvAVIAnrbHdM%252CDKFl6ejSz99PRM%252C_%253BVW-Us4UyFXhQlM%252CLdP7Qivg5LQYxM%252C_%253BNexNQmXdMZct5M%252Cnr5wKteFkOWo9M%252C_%253BPIFxRn0WWeVoNM%252CFdrmVre3H35aRM%252C_%253By-t92DPnlEoQnM%252CmxNRdZ7FAiZXhM%252C_%253BlYDYXFatoAm6eM%252Cjit-OEeWRKHyJM%252C_%253BdY4lrkucsu2oUM%252CI4dojcUihFULfM%252C_&usg=AI4_-kQ9sX4DP5UjtwML9wyt7a9WiogpDA&sa=X&ved=2ahUKEwinjqm03M31AhWlBGMBHURYBDAQ9QF6BAgFEAE&biw=1280&bih=577&dpr=1.5#imgrc=xfjoVWcxtrr9JM")
 
 
 // ///////////////////////////////////////////////////// section 2 //////////////////////////////////////
 
+
+// events are one of the most emportant things in js ! 
+// الافنتس هي بكل بساطة حدث يصير على العنصر  واذا تفعل ذا الحدث يشغل فنكشن محددة
+
+
+let aaaa = document.querySelector("#tst1")
+function ar() {
+    aaaa.style.color = "blue"
+}
