@@ -93,6 +93,9 @@ btn.addEventListener("click", ar2)
 // }
 // )
 let adas = document.querySelector("#awd")
+
+// random color with events
 adas.addEventListener("click", () => {
-    console.log("dawes");
+    // console.log("dawes");
+    adas.style.backgroundColor='#'+Math.floor(Math.random()*16777215).toString(16);
 })
