@@ -89,12 +89,10 @@ let btn = document.querySelector("#btn")
 btn.addEventListener("click", ar2)
 // or we use the es6
 // btn.addEventListener("click", ()=> {
-    //     aaaa.style.color = "blue"
-    // }
-    // )
-    let adas = document.querySelector("#awd")
-    adas.addEventListener("click",()=>{
-        console.log("dawes");
-    })
-    
-    
+//     aaaa.style.color = "blue"
+// }
+// )
+let adas = document.querySelector("#awd")
+adas.addEventListener("click", () => {
+    console.log("dawes");
+})
