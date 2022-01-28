@@ -71,6 +71,30 @@ rabt.setAttribute("href", "https://www.google.com/search?q=smile+meme&tbm=isch&s
 
 
 let aaaa = document.querySelector("#tst1")
-function ar() {
-    aaaa.style.color = "blue"
+// down we have two functions, how can we activate one of them or how can we call them?   we can call'em by making an event lestinar
+function ar1() {
+    console.log("hello");
 }
+
+function ar2() {
+    // aaaa.style.color = "blue"
+    console.log("hello");
+}
+
+// كيف تستعمل؟ شف تحت
+// NODE.addEventListener ('eventName', callback)
+let btn = document.querySelector("#btn")
+// btn.addEventListener("we can adde many events here one of them is the click event",here we put our function "without codation")
+
+btn.addEventListener("click", ar2)
+// or we use the es6
+// btn.addEventListener("click", ()=> {
+    //     aaaa.style.color = "blue"
+    // }
+    // )
+    let adas = document.querySelector("#awd")
+    adas.addEventListener("click",()=>{
+        console.log("dawes");
+    })
+    
+    
