@@ -2,6 +2,8 @@
 
 // simmilar to gettrs and setters when we want to change an attrbute , like an id ,class  ... we use getAttribute andd setAtrribute  
 
+// Atributes are "HTML attributes are special words used inside the opening tag to control the element's behaviour", so we target them by get and setAtribute , and start manippulating its value
+
 
 // getAttribute: is bringing the attribute to us like,"eturns the value of a specified attribute on the element"
 
