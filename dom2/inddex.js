@@ -71,7 +71,7 @@ rabt.setAttribute("href", "https://www.google.com/search?q=smile+meme&tbm=isch&s
 
 
 let aaaa = document.querySelector("#tst1")
-// down we have two functions, how can we activate one of them or how can we call them?   we can call'em by making an event lestinar
+// down we have two functions. How can we activate one of them or how can we call them?   we can call'em by making an event lestinar
 function ar1() {
     console.log("hello");
 }
@@ -84,7 +84,7 @@ function ar2() {
 // كيف تستعمل؟ شف تحت
 // NODE.addEventListener ('eventName', callback)
 let btn = document.querySelector("#btn")
-// btn.addEventListener("we can adde many events here one of them is the click event",here we put our function "without codation")
+// btn.addEventListener("we can adde many events here one of them is the click event",here we put our function )
 
 btn.addEventListener("click", ar2)
 // or we use the es6
@@ -95,7 +95,13 @@ btn.addEventListener("click", ar2)
 let adas = document.querySelector("#awd")
 
 // random color with events
-adas.addEventListener("click", () => {
-    // console.log("dawes");
-    adas.style.backgroundColor='#'+Math.floor(Math.random()*16777215).toString(16);
+// adas.addEventListener("click", () => {
+//     // console.log("dawes");
+//     adas.style.backgroundColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
+// })
+let bg = document.querySelector("#bk")
+let botann = document.querySelector("#bkbtn")
+
+botann.addEventListener("click", () => {
+    bg.style.backgroundColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
 })
