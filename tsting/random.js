@@ -1,9 +1,15 @@
-let ar = [2, 4, 9, 23, 435]
-function oopp(ary,uu) {
+// let ar = [2, 4, 9, 23, 435]
+// function oopp(array) {
     
-    let bb=ary[0]+ary[1]+ary[2]+ary[3]+ary[4]
-    // let kl=(bb)
-    return(bb/ary.length);
-}
+//     let bl=array[0]+array[1]+array[2]+array[3]+array[4]
+//     return(bl/array.length);
+// }
 
-console.log( oopp(ar));
+// console.log( oopp(ar));
+
+
+
+let ar = [2, 4, 9, 23, 435]
+
+let abb=ar
+abb.max
