@@ -102,6 +102,44 @@ let adas = document.querySelector("#awd")
 let bg = document.querySelector("#bk")
 let botann = document.querySelector("#bkbtn")
 
-botann.addEventListener("click", () => {
-    bg.style.backgroundColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
+// botann.addEventListener("click", () => {
+//     bg.style.backgroundColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
+// })
+
+
+// /////////////////////////////////////////////////////////////////// examples 1 //////////////////////////////////////
+
+// Make three pargraphs ,three buttons, change color,change font size ,change fontFamily,
+
+let paragraphs=document.querySelectorAll("#parg1")
+
+let bttn1=document.querySelector("#bttn1")
+let bttn2=document.querySelector("#bttn2")
+let bttn3=document.querySelector("#bttn3")
+
+bttn1.addEventListener("click",()=>{
+    paragraphs[0].style.color='#' + Math.floor(Math.random() * 16777215).toString(16);
+    paragraphs[1].style.color='#' + Math.floor(Math.random() * 16777215).toString(16);
+    paragraphs[2].style.color='#' + Math.floor(Math.random() * 16777215).toString(16);
 })
+bttn2.addEventListener("click",()=>{
+    paragraphs[0].style.fontSize="30px"
+    paragraphs[1].style.fontSize="30px"
+    paragraphs[2].style.fontSize="30px"
+})
+bttn3.addEventListener("click",()=>{
+    paragraphs[0].style.fontFamily = "Impact,Charcoal,sans-serif";
+    paragraphs[1].style.fontFamily = "Impact,Charcoal,sans-serif";
+    paragraphs[2].style.fontFamily = "Impact,Charcoal,sans-serif";
+})
+
+
+
+
+
+
+
+
+
+
+
