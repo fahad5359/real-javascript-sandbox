@@ -1,22 +1,22 @@
+#card {
 
-#card{
-    
     text-align: center;
-    
-   
+
+
     border-radius: 20px;
-    margin:auto;
+    margin: auto;
     width: 400px;
     height: 300px;
     -webkit-box-shadow: 5px 16px 70px -32px rgba(102, 102, 105, 1);
--moz-box-shadow: 5px 16px 70px -32px rgba(102, 102, 105, 1);
-box-shadow: 5px 16px 70px -32px rgba(102, 102, 105, 1);
+    -moz-box-shadow: 5px 16px 70px -32px rgba(102, 102, 105, 1);
+    box-shadow: 5px 16px 70px -32px rgba(102, 102, 105, 1);
 }
-.container{
+
+.container {
 
 
-    
-   /* margin: auto; */
-   padding: 150px;
-   text-align: center;
+
+    /* margin: auto; */
+    padding: 150px;
+    text-align: center;
 }

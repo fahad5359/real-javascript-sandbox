@@ -15,7 +15,7 @@ let password = document.querySelector("#password")
 let btn = document.querySelector("#btn")
 let para = document.querySelector("#Txt")
 let para2 = document.querySelector("#Txt2")
-let card=document.querySelector("#card")
+let card = document.querySelector("#card")
 
 
 
@@ -30,6 +30,7 @@ function varify() {
     } else {
         para.innerText = "pass or email is wrong"
         para.style.color = "red"
+        card.style.backgroundColor = "pink"
         //    console.log(" شيك على الايميل او الرمز");
 
     }
