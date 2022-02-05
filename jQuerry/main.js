@@ -11,6 +11,8 @@ $(document).ready(function (){
 */
 
 $(document).ready(() => {
+
+ 
     let ii = $("#mm")
     let oo = $("#oo")
     oo.css("color", "red")

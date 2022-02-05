@@ -41,27 +41,36 @@
 //     }
 // }
 
-let nums = [1, 2, 100, 3, 4, 50]
+// let nums = [1, 2, 100, 3, 4, 50]
 
-function larg_small(nums, numss) {
-    let larj = 0
-    let larjj = 0
+// function larg_small(nums, numss) {
+//     let larj = 0
+//     let larjj = 0
 
-    for (let i = 0; i < nums.length; i++) {
-        let lloop_indx = nums[i]
-        // console.log(lloop_indx);
-        // if (lloop_indx > larj) {
-        //     larj = lloop_indx
-        // }
-        if (lloop_indx < larj) {
-            larj = lloop_indx
-        }
-    }
+//     for (let i = 0; i < nums.length; i++) {
+//         let lloop_indx = nums[i]
+//         // console.log(lloop_indx);
+//         // if (lloop_indx > larj) {
+//         //     larj = lloop_indx
+//         // }
+//         if (lloop_indx < larj) {
+//             larj = lloop_indx
+//         }
+//     }
 
-    return larj
-}
+//     return larj
+// }
+$(document).ready(() => {
+    $("#btn").click(function (e) {
+        $("#br1").fadein(4000)
+        e.preventDefault();
 
-console.log(larg_small(nums));
+    });
+});
+// console.log(larg_small(nums));
+
+
+
 
 
 
