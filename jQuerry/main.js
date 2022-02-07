@@ -9,13 +9,10 @@ $(document).ready(function (){
 
 })
 */
+$(document).ready(function () {
+    let ii=$("#oo");
 
-$(document).ready(() => {
-
-
-    let ii = $("#mm")
-    let oo = $("#oo")
-    oo.css("color", "green")
-    //bellow is an example on how to change value of jQuery  
-    console.log(ii.text("hello"));
-})
+    ii.css("color","green");
+    $("#mm").css("background-color","green");
+    console.log(ii);
+});
