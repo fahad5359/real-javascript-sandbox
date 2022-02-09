@@ -80,3 +80,16 @@ bbtn_3.on("click",() => {
    
     para.css("font-size", "50px")
 })
+
+// altirnative  way to do  an event with click
+para.click(function(){
+    $(this).hide();
+    // para.hide();
+})
+
+// to use jqury quryselectorall methodd alterntive,    For better performance in modern browsers, use $("your-pure-css-selector").eq(index)
+
+let xx=$("#perant").find( "p:eq(0)" )
+let pordga=$("p").eq(1)
+console.log(xx);
+console.log(pordga);
