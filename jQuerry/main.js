@@ -88,8 +88,7 @@ para.click(function(){
 })
 
 // to use jqury quryselectorall methodd alterntive,    For better performance in modern browsers, use $("your-pure-css-selector").eq(index)
-
-let xx=$("#perant").find( "p:eq(0)" )
 let pordga=$("p").eq(1)
-console.log(xx);
 console.log(pordga);
+
+
