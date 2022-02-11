@@ -73,23 +73,61 @@ let bbtn_3 = $("#btnnn");
 bbtn_1.on("click", () => {
     para.text("java")
 })
-bbtn_2.on("click",() => {
+bbtn_2.on("click", () => {
     para.css("color", "red")
 })
-bbtn_3.on("click",() => {
-   
+bbtn_3.on("click", () => {
+
     para.css("font-size", "50px")
 })
 
 // altirnative  way to do  an event with click
-para.click(function(){
+para.click(function () {
     $(this).hide();
     // para.hide();
 })
 
-// to use jqury quryselectorall methodd alterntive,    For better performance in modern browsers, use $("your-pure-css-selector").eq(indexxdd)
-let pordga=$("p").eq(1)
+// to use jqury quryselectorall methodd alterntive,    For better performance in modern browsers, use $("your-pure-css-selector").eq(index) or
+
+let pordga = $("p").eq(1)
 // sa
+// pordga.hide()
 console.log(pordga);
+// for more info documintation bellow for selector
+// https://api.jquery.com/eq-selector/#:~:text=This%20is%20why%20%24(%20%22.myclass%3Aeq(1)%22%20)%20selects%20the%20second%20element%20in%20the%20document%20with%20the%20class%20myclass
+
+
+
+
+let shala = $(".hola").eq(1)
+// s
+
+$("#b6n").click(() => {
+    $(".hola").eq(2).css("color", "blue")
+})
+
+// / ///////////////////////////////////////excrsices  2/////////////////
+
+
+//تشبيك 
+let brgrph = $("#pargg1")
+let bttn = $("#bttn")
+let btttn = $("#btttn")
+let bttttn = $("#bttttn")
+
+
+// change color
+bttn.click(() => {
+    brgrph.css("color", "blue")
+})
+// change font size
+btttn.click(() => {
+    brgrph.css("font-size", "50px")
+})
+// change foont  family
+bttttn.click(() => {
+    brgrph.css("font-family", "fantasy")
+})
+
 
 
