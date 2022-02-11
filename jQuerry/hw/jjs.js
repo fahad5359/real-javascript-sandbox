@@ -27,7 +27,7 @@ $(document).ready(function () {
             // console.log("sefd");
             // Users[i] makse  triversing the array  more esair and we can make millons ofrecords without an effort.
             if (Users[i].user === usrnm.val() && Users[i].password === pass.val()) {
-                card.css("background-color","#85ccb1")
+                card.css("background-color", "#85ccb1")
                 console.log("correct");
                 // return  to stop the loop from triversing more and  checking all of the   Users  array , so when thg shar6 is good stop.
                 return;
