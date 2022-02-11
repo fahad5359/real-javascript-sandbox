@@ -29,7 +29,7 @@ showbtn.addEventListener("click", () => {
 btn.addEventListener("click", () => {
     for (let i = 0; i < usrs.length; i++) {
 
-        if (nm.value === usrs[0].namee && pass.value == usrs[0].password) {
+        if (nm.value === usrs[i].namee && pass.value == usrs[i].password) {
             console.log("nm pass is correct");
         } else {
             console.log("wrong");
