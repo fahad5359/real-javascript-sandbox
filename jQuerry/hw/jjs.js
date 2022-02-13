@@ -32,7 +32,7 @@ $(document).ready(function () {
                 // return  to stop the loop from triversing more and  checking all of the   Users  array , so when thg shar6 is good stop.
                 return;
             } else if (usrnm.val() !== Users[i].user && usrnm.val() !== Users[i].password) {
-                console.log("wrong");
+                console.log("wronng");
             }
 
         }
