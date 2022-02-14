@@ -9,6 +9,13 @@ h1 {
 
 
 /* id */
+#status{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    width: 1220px;
+}
 #cardd {
     padding: 100px;
     width: 10px;
@@ -52,11 +59,12 @@ h1 {
     background-color: #2a364b;
 }
 
+/* 
 #btn:focus {
     box-shadow: none;
     outline: 2px solid transparent;
     outline-offset: 2px;
-}
+} */
 
 @media (min-width: 768px) {
     #btn {
