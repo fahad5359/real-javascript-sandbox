@@ -5,11 +5,12 @@ const gma=(a)=>{
 }
 
 const mins=(bb,aa)=>{
-    bb-aa
+    return bb-aa
 }
-const dvid=(op)=>{
-    op%op
+const dvid=(op,ap)=>{
+    return op%ap
 }
 
 // bellow we authrise a sirting functions that wew can share. 
-module.exports=gma
+// module.exports=gma
+module.exports=dvid

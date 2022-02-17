@@ -1,7 +1,7 @@
 // النقطة تعلمني وين موقعي بالضبط
 
-
-const lcallib= require("./locallibrary")
+const dvidd = require("./locallibrary")
+// const lcallib= require("./locallibrary")
 // console.log("helloo node");
 // console.log("i got executed by node");
 
@@ -13,7 +13,7 @@ const lcallib= require("./locallibrary")
 //     return  a+b
 // }
 // console.log(amd(10,10));
- 
+
 
 
 // ////////////////////////////////////////////////////
@@ -30,4 +30,4 @@ const lcallib= require("./locallibrary")
 // what if we want to export anoother library or another file (locallibrary)?
 
 
-console.log(lcallib(10));
+console.log(dvidd(10,2));
