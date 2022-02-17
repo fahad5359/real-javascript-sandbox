@@ -1,6 +1,7 @@
 // النقطة تعلمني وين موقعي بالضبط
 
-const Thelocalibrary = require('./locallibrary');
+
+const lcallib= require("./locallibrary")
 // console.log("helloo node");
 // console.log("i got executed by node");
 
@@ -29,4 +30,4 @@ const Thelocalibrary = require('./locallibrary');
 // what if we want to export anoother library or another file (locallibrary)?
 
 
-console.log(Thelocalibrary(10,5));
+console.log(lcallib(10));

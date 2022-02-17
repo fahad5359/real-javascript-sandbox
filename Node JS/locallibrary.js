@@ -8,8 +8,8 @@ const mins=(bb,aa)=>{
     bb-aa
 }
 const dvid=(op)=>{
-    op-op
+    op%op
 }
 
 // bellow we authrise a sirting functions that wew can share. 
-module.exports=gma,mins
+module.exports=gma
