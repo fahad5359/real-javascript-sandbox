@@ -13,4 +13,4 @@ const dvid=(op,ap)=>{
 
 // bellow we authrise a sirting functions that wew can share. 
 // module.exports=gma
-module.exports=dvid
+module.exports=mins

@@ -1,6 +1,7 @@
 // النقطة تعلمني وين موقعي بالضبط
 
 const dvidd = require("./locallibrary")
+const moth = require("./mathh")
 // const lcallib= require("./locallibrary")
 // console.log("helloo node");
 // console.log("i got executed by node");
@@ -28,6 +29,8 @@ const dvidd = require("./locallibrary")
 // we can see our librays in  the  packge.jason ,we can find mostly the things  in packge.json
 
 // what if we want to export anoother library or another file (locallibrary)?
+// we  cold export  it noo problem .
 
 
-console.log(dvidd(10,2));
+console.log(moth.adtion(10,10),moth.substract(10,20));
+// console.log(dvidd(10,2));
