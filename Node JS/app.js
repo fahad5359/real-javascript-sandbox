@@ -1,7 +1,7 @@
 // النقطة تعلمني وين موقعي بالضبط
 
 const dvidd = require("./locallibrary")
-const moth = require("./mathh")
+const multi = require("./multi")
 // const lcallib= require("./locallibrary")
 // console.log("helloo node");
 // console.log("i got executed by node");
@@ -31,6 +31,6 @@ const moth = require("./mathh")
 // what if we want to export anoother library or another file (locallibrary)?
 // we  cold export  it noo problem .
 
-
-console.log(moth.adtion(10,10),moth.substract(10,20));
+multi.darb(10,5)
+console.log(multi.darb(10,5));
 // console.log(dvidd(10,2));
