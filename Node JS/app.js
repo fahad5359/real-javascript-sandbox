@@ -21,13 +21,15 @@ app.listen(3000)
 */
 
 
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
 const express = require('express')
 const app = express();
 
 // the bellow (app.git() ) is a method,ركز
 app.get("/Stronk", (req, res) => {
 // *here we spcfy the endpoint nem
-// *the parmeters we specfid with the function call back are: req"reqst",and res"response"
+// *the parmeters we specfid with the function call back are: req"reqst",and res"response"                                                                      
     res.send("الوالدة تسلم عليكم")
 })
 
