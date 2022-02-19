@@ -5,3 +5,5 @@ btn.addEventListener("click",() => {
 })
 
 //  ? addEventListener( "somthing" , "somthing" )
+// $(selector).click(function () {
+// });
