@@ -36,7 +36,7 @@ app.get("/Stronk", (req, res) => {
 
 app.listen(3000, () => {
     // *here we spcfy the port number
-    // ! here we can add a function so when ever the app or the port started working it triggers this function.
+    // ! here we can add a function so whenever the app or the port started working it triggers this function.
     console.log("helloh");
     console.log("i am your first server");
     console.log("ctr c to turn off");
