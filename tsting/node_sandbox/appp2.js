@@ -18,7 +18,7 @@ ourapp.get("/home",(req,res)=>{
     res.redirect('/tsting/node_sandbox/inde.html'+req.url)
 })
 ourapp.listen(100,()=>{
-    console.log("server is on");
+    console.log("server is  on");
 
 })
 
