@@ -10,15 +10,23 @@
 
 
 
-const express=require("express")
-const ourapp=express()
+const express=require("express");
+const ourapp=express();
 
-ourapp.get("/home",(req,res)=>{
-    // res.send("weclome to your web page")
-    res.redirect('/tsting/node_sandbox/inde.html'+req.url)
+// ourapp.get("/home",(req,res)=>{
+//     // res.send("weclome to your web page")
+//     
+// })
+// ourapp.listen(100,()=>{
+//     console.log("server is  on");
+
+// })
+
+
+ourapp.get("/undex",(req,res)=>{
+    res.send("hello")
 })
-ourapp.listen(100,()=>{
-    console.log("server is  on");
-
+ourapp.listen(2000,()=>{
+    console.log("server is on");
 })
 
