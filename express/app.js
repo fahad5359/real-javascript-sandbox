@@ -21,4 +21,8 @@ app.listen(2000, () => {
 // ** عشان نشغل الاوامر اللي بالسكربت ,اللي موجود بالباكج دوت جيسون ,نحدد نوع الكوماند
 // **then  we if we want to call it we write (npm run "the nem of our command") 
 
+
+// post requst (postman)
+//* post man used for testing the .post requst, method
+app.post()
  
