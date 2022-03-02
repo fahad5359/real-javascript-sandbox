@@ -4,12 +4,6 @@
 const express = require('express');
 const app = express();
 
-app.get("/myapp", (req, res) => {
-    res.send("hello")
-})
-app.listen(2000, () => {
-    console.log("SERVER ON");
-})
 
 // ?the packge.json acts as a user manual
 // ** شي مزعج جدا كل ما عدلنا شي ,لازم نروح نطفي السيرفر و نشغله 
@@ -24,5 +18,15 @@ app.listen(2000, () => {
 
 // post requst (postman)
 //* post man used for testing the .post requst, method
-app.post()
+
+app.get("/myapp", (req, res) => {
+    res.send("hello")
+})
+app.post("/myapp", (req, res) => {
+    res.send("hello")
+})
+
+app.listen(2000, () => {
+    console.log("SERVER ON");
+})
  
