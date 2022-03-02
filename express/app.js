@@ -4,6 +4,9 @@
 const express = require('express');
 const app = express();
 
+//* Middleware (read what inside Post)
+app.use(express.json())
+
 
 // ?the packge.json acts as a user manual
 // ** شي مزعج جدا كل ما عدلنا شي ,لازم نروح نطفي السيرفر و نشغله 
