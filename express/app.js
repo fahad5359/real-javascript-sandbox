@@ -40,8 +40,24 @@ app.get("/fnem",(req,res)=>{
 })
 
 // ** to read the post requst we need to downlowd somthing called "body-parser" to help us read the post requsit
+// ** req is from the user. 
+// ** res id from server.
 
+// ? A good qistion is , how can we take info from the front end ,and send it to back end ...
+// ! by using the the post method and json
+// ** more explenation bellow in the post method.
+app.post("/adding",(req,res)=>{
+    /*
+    Req => Body => raw => JSON
+     this is the path in the post man app.
 
+    by using the postman app, we are going to add a user,
+    nem is :ahmad
+    pass is :509
+    */
+    res.json
+    
+})
 
 
 
@@ -56,9 +72,9 @@ app.get("/fnem",(req,res)=>{
 // app.get("/myapp", (req, res) => {
 //     res.send("hello")
 // })
-app.post("/myapp", (req, res) => {
-    res.send("asd")
-})
+// app.post("/myapp", (req, res) => {
+//     res.send("asd")
+// })
 
 app.listen(2000, () => {
     console.log("SERVER ON");
