@@ -24,29 +24,33 @@ app.use(express.json())
 const ourdb = [
     { nem: "fahad", pass: "1122" },
     { nem: "ali", pass: "112872" },
-    { nem: "asma", pass: "2211" },
+    { nem: "asmaa", pass: "2211" },
     { nem: "kaled", pass: "1174522" }]
-
+    
+    app.listen(2000, () => {
+        console.log("SERVER ON");
+    })
 // we want our app.get to send us our ddadtabase ,how?
-app.get("/dball",(req,res)=>{
+app.get("/dball", (req, res) => {
     res.send(ourdb)
 
 })
-// res=response
-app.get("/fnem",(req,res)=>{
-// ! dont use res.send xx insted use
-// ** use res.json 
-  res.json(ourdb[2])
+// ? res=response
+app.get("/fnem", (req, res) => {
+    // ! dont use res.send xx insted use
+    // ** use res.json 
+    res.json(ourdb[2])
 })
 
 // ** to read the post requst we need to downlowd somthing called "body-parser" to help us read the post requsit
+
 // ** req is from the user. 
-// ** res id from server.
+// ** res is from server.
 
 // ? A good qistion is , how can we take info from the front end ,and send it to back end ...
 // ! by using the the post method and json
 // ** more explenation bellow in the post method.
-app.post("/adding",(req,res)=>{
+app.post('/aa', (req, res) => {
     /*
     Req => Body => raw => JSON
      this is the path in the post man app.
@@ -55,8 +59,10 @@ app.post("/adding",(req,res)=>{
     nem is :ahmad
     pass is :509
     */
-    res.json
-    
+//*   يعني جاني ريكويست من البوست مان
+    console.log(req);
+    res.send("uiysefdgiuahf")
+
 })
 
 
@@ -76,6 +82,3 @@ app.post("/adding",(req,res)=>{
 //     res.send("asd")
 // })
 
-app.listen(2000, () => {
-    console.log("SERVER ON");
-})
