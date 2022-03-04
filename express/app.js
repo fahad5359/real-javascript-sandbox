@@ -50,7 +50,7 @@ app.get("/fnem", (req, res) => {
 // ? A good qistion is , how can we take info from the front end ,and send it to back end ...
 // ! by using the the post method and json
 // ** more explenation bellow in the post method.
-app.post('/aa', (req, res) => {
+app.post('/aaa', (req, res) => {
     /*
     Req => Body => raw => JSON
      this is the path in the post man app.
@@ -60,8 +60,13 @@ app.post('/aa', (req, res) => {
     pass is :509
     */
 //*   يعني جاني ريكويست من البوست مان
-    console.log(req);
-    res.send("uiysefdgiuahf")
+    console.log(req.body);
+    ourdb.push(req.body)
+/*  زي ما احنا شايفين فوق باستعمال البوستمان قدرنا اننا نظيف شخص جديد للسداتابايس .ممكن تقول ليه مانيب اشوفها فوق في الداتا بايس اللي عرفناها فوق ؟   لو تروح على القت ركويست \
+dball 
+بنشوف اننا اضفناها بنجاااح.
+*/
+    res.js("i was sent seccfully ")
 
 })
 
