@@ -50,7 +50,7 @@ app.get("/fnem", (req, res) => {
 // ? A good qistion is , how can we take info from the front end ,and send it to back end ...
 // ! by using the the post method and json
 // ** more explenation bellow in the post method bellow.
-app.post('/aaa', (req, res) => {
+app.post('/postsmn', (req, res) => {
     /*
     Req => Body => raw => JSON
      this is the path in the post man app.
