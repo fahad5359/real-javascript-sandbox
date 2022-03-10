@@ -89,9 +89,7 @@ app.put("/nem/:index", (req, res) => {
     res.json("hey paragoon is out")
 })
 
-
-
-
+// ! get post delete put  
 
 // app.get("/myapp", (req, res) => {
 //     res.send("hello")
