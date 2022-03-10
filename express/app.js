@@ -81,8 +81,13 @@ app.delete("/del", (req, res) => {
     res.json("hey the first elemnt was deleted sccessfully")
 })
 
-// the put mmethod
-app.put()
+// the put method is ,how can we edit or change value in our database. example bellow.
+// ourdb[0]   ,ourdb[1]
+app.put("/nem/:index", (req, res) => {
+    console.log(req.params);
+    ourdb[req.params.index].nem = req.body.Newnem
+    res.json("hey paragoon is out")
+})
 
 
 
