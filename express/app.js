@@ -26,10 +26,10 @@ const ourdb = [
     { nem: "ali", pass: "112872" },
     { nem: "asmaa", pass: "2211" },
     { nem: "kaled", pass: "1174522" }]
-    
-    app.listen(2000, () => {
-        console.log("SERVER ON");
-    })
+
+app.listen(2000, () => {
+    console.log("SERVER ON");
+})
 // we want our app.get to send us our ddadtabase ,how?
 app.get("/dball", (req, res) => {
     res.send(ourdb)
@@ -59,22 +59,30 @@ app.post('/postsmn', (req, res) => {
     nem is :ahmad
     pass is :509
     */
-//*   يعني جاني ريكويست من البوست مان
+    //*   يعني جاني ريكويست من البوست مان
     console.log(req.body);
     ourdb.push(req.body)
-/*  زي ما احنا شايفين فوق باستعمال البوستمان قدرنا اننا نظيف شخص جديد للداتابايس .ممكن تقول ليه مانيب اشوفها فوق في الداتا بايس اللي عرفناها فوق ؟   لو تروح على القت ركويست \
-dball 
-بنشوف اننا اضفناها بنجااح.
-*/
+    /*  زي ما احنا شايفين فوق باستعمال البوستمان قدرنا اننا نظيف شخص جديد للداتابايس .ممكن تقول ليه مانيب اشوفها فوق في الداتا بايس اللي عرفناها فوق ؟   لو تروح على القت ركويست \
+    dball 
+    بنشوف اننا اضفناها بنجااح.
+    */
     res.js("i was sent seccfully ")
 
 })
 
 
+///////////////////////////////////////////////////// section 2 ///////////
+// put and delete methods
 
+// in this delete method we are deleteing the first elemnt of the array..
+// if want to check go to the get method and /dball
+app.delete("/del", (req, res) => {
+    ourdb.shift()
+    res.json("hey the first elemnt was deleted sccessfully")
+})
 
-
-
+// the put mmethod
+app.put()
 
 
 
