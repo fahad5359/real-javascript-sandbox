@@ -1,0 +1,1 @@
+// here we istalled mongoose, mongose hellp us comunicate with mongodb better
