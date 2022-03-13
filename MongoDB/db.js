@@ -32,5 +32,6 @@ db.on("connected", (err) => {
 })
 
 
-/* ================================= sectioon 2 ========================== */
+/*                                        ================================= sectioon 2 ==========================                    */
 // in secion 2 will descuss how can we add delete ,ubdate data, in the database..
+// we create a model
