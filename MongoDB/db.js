@@ -25,7 +25,7 @@ mongose.connect(mongouri {},function(){
 // extra
 // if u want to check error
 db.on("Error", (er) => {
-    console.log(er.message + "ar7b, feh problem ببب");
+    console.log(er.message + "ar7b, feh problem ");
 });
 db.on("connected", (err) => {
     console.log("connected is jood");
