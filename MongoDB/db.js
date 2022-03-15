@@ -1,19 +1,23 @@
 // here we istalled mongoose, mongose hellp us comunicate with mongodb better
 // npm i mongoose
 
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 // here we spicfy the url of the db
-const mongoURI = "mongodb://localhost:27017/thedbpg"
-const db = mongoose.connection
+const mongoURI = "mongodb://localhost:27017/thedbpg";
+const db = mongoose.connection;
 
 // connecting the db
-mongoose.connect(mongoURI, {
-    userNewUrlParser: true, useUnifiedTopology: true
-},
+mongoose.connect(
+    mongoURI,
+   
+    { useNewUrlParser: true },
+
+
     () => {
         console.log("the db is working");
-    });
+    }
+);
 /*
 
 mongose.connect(mongouri {},function(){
@@ -24,12 +28,12 @@ mongose.connect(mongouri {},function(){
 
 // extra
 // if u want to check error
-db.on("Error", (er) => {
-    console.log(er.message + "ar7b, feh problem ");
+db.on("error", (err) => {
+    console.log(err.message + "ar7b, feh problem ");
 });
-db.on("connected", (err) => {
-    console.log("connected is jood");
-})
+// db.on("connected", (err) => {
+//     console.log("connected is jood");
+// })
 
 
 /*                                        ================================= sectioon 2 ==========================                    */
