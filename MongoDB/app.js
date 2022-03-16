@@ -7,6 +7,17 @@ const User = require('./model/users')
 
 app.use(express.json());
 
+app.get("/allelm",(req,res)=>{
+    // .find displays all the values oof the db
+    User.find({},(err, newData) => {
+        if (err) {
+            // console.log("hla");
+            return handleError(err);
+        }
+        // console.log("DATA", newData);
+        res.json(newData)
+    });
+})
 
 app.post("/aa", (req, res) => {
     User.create(
@@ -16,7 +27,8 @@ app.post("/aa", (req, res) => {
                 // console.log("hla");
                 return handleError(err);
             }
-            console.log("DATA", newData);
+            // console.log("DATA", newData);
+            res.json("the datas was created sccfully")
         });
     // res.json("help")
 });
