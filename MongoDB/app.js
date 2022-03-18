@@ -30,6 +30,7 @@ app.post("/aa", (req, res) => {
             // console.log("DATA", newData);
             res.json("the datas was created sccfully")
         });
+        // res.json("sdefihu")
     // res.json("help")
 });
 app.listen(4000, () => {
