@@ -35,3 +35,11 @@ app.post("/aa", (req, res) => {
 app.listen(4000, () => {
     console.log("servr is on");
 });
+
+
+
+
+//###################################### section3 ##############################
+
+// receving info from the broser not from the code editor
+

@@ -87,7 +87,7 @@ para.click(function () {
     // para.hide();
 })
 
-// to use jqury quryselectorall methodd alterntive,    For better performance in modern browsers, use $("your-pure-css-selector").eq(index) or
+// to use jqury quryselectorall methodd alterntive,    For better performance in modern browsers, use $("your-pure-css-selector").eq(index) 
 
 let pordga = $("p").eq(1)
 // sa
