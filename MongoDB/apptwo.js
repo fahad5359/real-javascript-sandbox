@@ -19,7 +19,7 @@ moapp.get("/viowall", (req, res) => {
     });
   
 });
-// ------------------------------------------
+// --------------------------------------------------------------------------------
 
 moapp.post("/aaadd", (req, res) => {
     Users.create(req.body,
@@ -33,19 +33,19 @@ moapp.post("/aaadd", (req, res) => {
         });
     // res.json("help")
 });
-// ------------------------------------------
-// moapp.delete("/dele6/:fName", (req, res) => {
-//     console.log(req.params);
-//     Users.deleteOne({ fName: req.params.fName }, (err, delob) => {
-//         if(err) {
-//             console.log("orror", err);
-//             res.status(404).json("usr not there")
-//         }else{
-//             console.log(delob);
-//             res.json("deleted" + req.params.fName)
-//         }
-//     })
-// })
+// --------------------------------------------------------------------------------
+moapp.delete("/dele6/:fName", (req, res) => {
+    console.log(req.params);
+    Users.deleteOne({ fName: req.params.fName }, (err, delob) => {
+        if(err) {
+            console.log("orror", err);
+            res.status(404).json("usr not there")
+        }else{
+            console.log(delob);
+            res.json("deleted" + req.params.fName)
+        }
+    })
+})
 // moapp.delete("/dele6/:favFood", (req, res) => {
 //     console.log(req.params);
 //     Users.deleteOne({ favFood: req.params.favFood }, (err, delob) => {
@@ -58,9 +58,9 @@ moapp.post("/aaadd", (req, res) => {
 //         }
 //     })
 // })
-// ------------------------------------------
+// --------------------------------------------------------------------------------
 // moapp.put
-// ------------------------------------------
+// --------------------------------------------------------------------------------
 moapp.listen(2500, () => {
     console.log("servr is on");
 });
